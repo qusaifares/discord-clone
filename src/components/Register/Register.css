@@ -1,0 +1,42 @@
+.register {
+  background-image: url('/images/login-bg-night.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.register__content {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.register__form {
+  width: 480px;
+  padding: 32px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--form-background);
+  color: var(--form-color);
+}
+
+.register__formTitle {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register__submit {
+  margin-top: 25px;
+}
+
+.register__formLink {
+  display: block;
+  color: var(--blue);
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.register__formLink:hover {
+  text-decoration: underline;
+}

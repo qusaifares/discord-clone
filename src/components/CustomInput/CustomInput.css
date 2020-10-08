@@ -1,0 +1,33 @@
+.customInput {
+  margin-bottom: 20px;
+}
+
+.customInput__label {
+  display: block;
+  color: var(--form-label-color);
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.customInput__input {
+  color: #dcddde;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.customInput__input:hover {
+  border-color: #040405;
+}
+
+.customInput__input:focus {
+  border-color: var(--blue);
+}
